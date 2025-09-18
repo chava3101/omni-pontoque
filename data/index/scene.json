@@ -74,7 +74,7 @@
         "properties": {
           "name": "NDVI Dry",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -125,7 +125,7 @@
         "properties": {
           "name": "NDVI Wet",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -176,7 +176,7 @@
         "properties": {
           "name": "Soil Moisture 5cm",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -227,7 +227,7 @@
         "properties": {
           "name": "Topographic Wetness Index",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -278,7 +278,7 @@
         "properties": {
           "name": "Temporal Stability",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -329,7 +329,7 @@
         "properties": {
           "name": "NDWI",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -380,7 +380,7 @@
         "properties": {
           "name": "Satellite Golf",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -431,7 +431,7 @@
         "properties": {
           "name": "NDVI Dry Golf",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
