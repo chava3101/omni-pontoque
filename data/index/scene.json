@@ -1,0 +1,480 @@
+{
+  "type": "scene",
+  "properties": {
+    "baseExtent": {
+      "cx": 451882.39292421466,
+      "cy": 2296149.9617947103,
+      "width": 4279.583951302804,
+      "height": 4279.583951302804,
+      "rotation": 0
+    },
+    "origin": {
+      "x": 451882.39292421466,
+      "y": 2296149.9617947103,
+      "z": 0.0
+    },
+    "zScale": 1.5,
+    "light": "directional"
+  },
+  "layers": [
+    {
+      "type": "layer",
+      "id": 8,
+      "properties": {
+        "name": "Satellite",
+        "clickable": true,
+        "visible": true,
+        "type": "dem",
+        "clipped": false,
+        "mtlNames": [
+          "map (canvas)"
+        ],
+        "mtlIdx": 0
+      },
+      "data": [
+        {
+          "type": "block",
+          "layer": 8,
+          "block": 0,
+          "materials": [
+            {
+              "type": 0,
+              "image": {
+                "url": "./data/index/a0.png"
+              },
+              "ds": 1,
+              "mtlIndex": 0,
+              "useNow": true
+            }
+          ]
+        },
+        {
+          "type": "block",
+          "layer": 8,
+          "block": 0,
+          "width": 4279.583951302804,
+          "height": 4279.583951302804,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "zScale": 1.5,
+          "grid": {
+            "width": 201,
+            "height": 201,
+            "url": "./data/index/a0.bin"
+          }
+        }
+      ]
+    },
+    {
+        "type": "layer",
+        "id": 9,
+        "properties": {
+          "name": "NDVI Dry",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 9,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/b0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 9,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/b0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 10,
+        "properties": {
+          "name": "NDVI Wet",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 10,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/c0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 10,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/c0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 11,
+        "properties": {
+          "name": "Soil Moisture 5cm",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 11,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/d0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 11,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/d0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 12,
+        "properties": {
+          "name": "Topographic Wetness Index",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 12,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/e0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 12,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/e0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 13,
+        "properties": {
+          "name": "Temporal Stability",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 13,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/f0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 13,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/f0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 14,
+        "properties": {
+          "name": "NDWI",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 14,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/g0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 14,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/g0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 15,
+        "properties": {
+          "name": "Satellite Golf",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 15,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/h0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 15,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/h0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 16,
+        "properties": {
+          "name": "NDVI Dry Golf",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 16,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/i0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 16,
+            "block": 0,
+            "width": 4279.583951302804,
+            "height": 4279.583951302804,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.5,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/i0.bin"
+            }
+          }
+        ]
+      }
+  ]
+}
